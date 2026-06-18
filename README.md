@@ -1,6 +1,9 @@
-Sudoku game where the play grid is output to the console and you enter numbers using coordinates corresponding to the grid when prompted
+Sudoku Game
 
-The numbers at the top and sides of the grid separated by the boundary dashes indicate the coordinates for each cell in the grid
+This is a standard rules sudoku game. The play grid is output to the console and numbers are entered using coordinates corresponding to the grid when prompted.
+There are 3 different levels of difficulties, each one progressively reducing the number of pre-filled squares on the grid
+
+The coordinates are indicated by the numbers at the top and sides of the grid separated by the boundary dashes
 An underscore in the grid indicates a cell that needs to be filled
 Below the grid the line of text output stating "numbers remaining" tells you which numbers have not all been filled in on the sudoku grid
 Below the "numbers remaining" text will be a first prompt to enter the x-coordinate, column, of the cell you want to fill
