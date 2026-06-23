@@ -4,11 +4,11 @@ A terminal-based Sudoku game built in Java, featuring three difficulty levels an
 
 ## Overview
 
-This project implements a fully playable Sudoku game that runs in the console. The player is presented with a partially filled 9×9 grid and inputs moves via coordinate-based prompts. The game validates each entry against standard Sudoku rules — checking rows, columns, and 3×3 subgrids — before updating the board. Invalid moves are rejected without altering the grid state, and the game tracks remaining numbers to give the player a clear picture of progress.
+This project implements a fully playable Sudoku game that runs in the console. The player is presented with a partially filled 9×9 grid and inputs moves via coordinate-based prompts. The game validates each entry against standard Sudoku rules, checking rows, columns, and 3×3 subgrids, before updating the board. Invalid moves are rejected without altering the grid state, the game also tracks remaining numbers to give the player a clear picture of progress.
 
 ## Features
 
-- **Three difficulty levels** — Easy, Medium, and Hard, each reducing the number of pre-filled cells to increase the challenge
+- **Three difficulty levels** — Easy, Medium, and Hard, each reducing the number of pre-filled cells to increase the difficulty
 - **Coordinate-based input** — Players specify a column (x) then row (y) to target a specific cell
 - **Real-time validation** — Each number entered is checked against Sudoku constraints before being placed
 - **Progress tracking** — A "numbers remaining" display updates each turn to show which digits still need to be placed
@@ -41,7 +41,6 @@ Difficulty is set by passing an integer argument to the `Grid` constructor in `M
 // Example: start a Hard game
 Grid grid = new Grid(2);
 ```
-
 
 ## Technologies
 
