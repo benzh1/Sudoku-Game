@@ -48,7 +48,7 @@ Grid grid = new Grid(2);
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/sudoku.git
+git clone https://github.com/benzh1/sudoku.git
 cd sudoku
 
 # Compile
