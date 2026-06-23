@@ -42,35 +42,12 @@ Difficulty is set by passing an integer argument to the `Grid` constructor in `M
 Grid grid = new Grid(2);
 ```
 
-## Getting Started
-
-**Prerequisites:** Java 8 or above
-
-```bash
-# Clone the repository
-git clone https://github.com/benzh1/sudoku.git
-cd sudoku
-
-# Compile
-javac src/*.java -d out/
-
-# Run
-java -cp out/ Main
-```
-
-## Project Structure
-
-```
-sudoku/
-├── src/
-│   ├── Main.java       # Entry point — set difficulty here
-│   └── Grid.java       # Core game logic and board state
-└── README.md
-```
 
 ## Technologies
 
 - **Java** — core application logic
 - **Standard I/O** — console-based rendering and user input via `Scanner`
+
+## Future Improvements
 
 Add a GUI that represents the sudoku grid allowing for more intuitive gameplay
